@@ -30,7 +30,7 @@ public class UndergraduateStudent extends Student{
         }
         double avg  = (double) sum / Student.NUM_OF_TESTS;
         if(avg >= 90) {
-            courseGrade = "pass";
+            courseGrade = "Pass";
         }
         else {
             courseGrade = "Fail";
