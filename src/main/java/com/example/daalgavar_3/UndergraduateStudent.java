@@ -33,7 +33,7 @@ public class UndergraduateStudent extends Student{
             courseGrade = "pass";
         }
         else {
-            courseGrade = "fail";
+            courseGrade = "Fail";
         }
         return courseGrade;
     }
